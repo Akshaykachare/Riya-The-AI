@@ -1,23 +1,23 @@
 import speech_recognition as sr
 import pyttsx3
 
-# from Jarvis.features import date_time
-# from Jarvis.features import launch_app
-# from Jarvis.features import website_open
-# from Jarvis.features import weather
-# from Jarvis.features import wikipedia
-# from Jarvis.features import news
-# from Jarvis.features import send_email
-# from Jarvis.features import google_search
-# from Jarvis.features import google_calendar
-# from Jarvis.features import note
-# from Jarvis.features import system_stats
-# from Jarvis.features import loc
+from Jarvis.features import date_time
+from Jarvis.features import launch_app
+from Jarvis.features import website_open
+from Jarvis.features import weather
+from Jarvis.features import wikipedia
+from Jarvis.features import news
+from Jarvis.features import send_email
+from Jarvis.features import google_search
+from Jarvis.features import google_calendar
+from Jarvis.features import note
+from Jarvis.features import system_stats
+from Jarvis.features import loc
 
 
-# engine = pyttsx3.init('sapi5')
-# voices = engine.getProperty('voices')
-# engine.setProperty('voices', voices[0].id)
+engine = pyttsx3.init('sapi5')
+voices = engine.getProperty('voices')
+engine.setProperty('voices', voices[0].id)
 
 class JarvisAssistant:
     def __init__(self):
